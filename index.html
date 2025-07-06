@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EN Labz - 3D Filament Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+  <div class="navbar">
+    <div class="logo-container">
+        <img src="images/Logo.jpg" alt="EN Labz Logo" class="logo" />
+        <span class="brand-name">EN Labz</span>
+    </div>
+    <ul class="nav-links">
+    <li><a href="#home" data-page="home">Home</a></li>
+    <li><a href="#products" data-page="products">Products</a></li>
+    <li><a href="#about" data-page="about">About</a></li>
+    <li><a href="#contact" data-page="contact">Contact</a></li>
+  </ul>
+  </div>
+</header>
+
+  <section id="home" class="carousel-section page-section">
+    <div class="carousel">
+      <div class="carousel-inner">
+      <img class="carousel-image active" src="images/Carousel_1.png" alt="Product 1" />
+      <img class="carousel-image" src="images/Carousel_2.png" alt="Product 2" />
+      <img class="carousel-image" src="images/Carousel_3.png" alt="Product 3" />
+      <img class="carousel-image" src="images/Carousel_4.png" alt="Product 4" />
+      <img class="carousel-image" src="images/Carousel_5.png" alt="Product 5" />
+      <img class="carousel-image" src="images/Carousel_6.png" alt="Product 6" />
+      <img class="carousel-image" src="images/Carousel_7.png" alt="Product 7" />
+      <img class="carousel-image" src="images/Carousel_8.png" alt="Product 8" />
+      <img class="carousel-image" src="images/Carousel_9.png" alt="Product 9" />
+      </div>
+
+        <div class="carousel-controls">
+            <button id="prevBtn">&#10094;</button>
+            <button id="nextBtn">&#10095;</button>
+        </div>
+
+        <div class="carousel-dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+    </div>
+
+    <div class="featured-section">
+  <h2>Featured Filaments</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/Featured_1.png" alt="H.S. PLA Marble - Oreo">
+      <h3>H.S. PLA Marble - Oreo</h3>
+      <p>Mimics natural stone, Ideal for architectural models, sculptures, and artistic creations.</p>
+    </div>
+    <div class="product-card">
+      <img src="images/Featured_2.png" alt="PLA+ Series">
+      <h3>PLA+ Series</h3>
+      <p>Higher strength, great for mechanical parts.</p>
+    </div>
+    <div class="product-card">
+      <img src="images/Featured_3.png" alt="Wood Filament">
+      <h3>Wood Series</h3>
+      <p>Stronger wood-like texture, ideal for wood theme builds.</p>
+    </div>
+    <div class="product-card">
+      <img src="images/Featured_4.png" alt="High Clear Resin">
+      <h3>High Clear Resin</h3>
+      <p>Excellent yellowing resistant, idea for crystal clear prints</p>
+    </div>
+    <div class="product-card">
+      <img src="images/Featured_5.png" alt="TPU Orange">
+      <h3>TPU - Orange</h3>
+      <p>Flexible filament for stretchy models.</p>
+    </div>
+    <div class="product-card">
+      <img src="images/Featured_6.png" alt="Silk PLA+ Black Green">
+      <h3>Silk PLA+ - Black Green</h3>
+      <p>smooth and silky, best for aesthetic prints.</p>
+    </div>
+  </div>
+
+  <div class="center-button">
+    <button id="viewMoreBtn">View More Products</button>
+  </div>
+</div>
+
+
+<div class="where-to-buy">
+<h2>Where to Buy</h2>
+ <p class="buy-text">You can purchase our products from these trusted platforms:</p>
+  <div class="buy-buttons">
+    <a href="https://www.lazada.com.ph/shop/en-labs" target="_blank" class="buy-btn lazada">
+      <img src="images/laz.png" alt="Lazada Logo" class="buy-icon" />
+      Lazada
+    </a>
+    <a href="https://shopee.ph/shop/1560195020" target="_blank" class="buy-btn shopee">
+      <img src="images/shopee.png" alt="Shopee Logo" class="buy-icon" />
+      Shopee
+    </a>
+    <a href="https://www.tiktok.com/@earthnourriture?_t=ZS-8xnMcqRPpkl&_r=1" target="_blank" class="buy-btn tiktok">
+      <img src="images/tiktok2.png" alt="TikTok Logo" class="buy-icon" />
+      TikTok Shop
+    </a>
+  </div>
+</div>
+
+
+
+  </section>
+
+  <section id="products" class="section page-section fullwidth-product-page">
+    
+    <div class="product-page-layout">
+    
+    <!-- Sidebar on far left -->
+<aside class="catalog-sidebar">
+  <h3>Categories</h3>
+  <ul>
+    <li><a href="#pla">PLA</a></li>
+    <li><a href="#pla-matte">PLA Matte</a></li>
+    <li><a href="#pla-plus">PLA+</a></li>
+    <li><a href="#silk-pla-plus">Silk PLA+</a></li>
+    <li><a href="#silk-pla-dual">Silk PLA+ Dual Color</a></li>
+    <li><a href="#silk-pla-rainbow">Silk PLA+ Rainbow Series</a></li>
+    <li><a href="#silk-pla-tricolor">Silk PLA+ Tri Color</a></li>
+    <li><a href="#abs">ABS</a></li>
+    <li><a href="#hs-pla-marble">HS Marble</a></li>
+    <li><a href="#petg">PETG</a></li>
+    <li><a href="#tpu">TPU</a></li>
+    <li><a href="#wood">Wood</a></li>
+    <li><a href="#clear-resins">Clear Resins</a></li>
+    <li><a href="#standard-resins">STANDARD Resins</a></li>
+    <li><a href="#standard-plus">STANDARD Plus Resin</a></li>
+    <li><a href="#accessories">Accessories</a></li>
+  </ul>
+</aside>
+
+
+    <!-- Product content right of sidebar -->
+    <div class="product-content">
+
+
+              <section id="pla" class="product-category">
+  <div class="product-category-inner">
+    <h2>PLA</h2>
+    <div class="product-row">
+
+      <div class="product-card">
+        <img src="images/PLA (1).png" alt="PLA Filament 2" />
+        <h3>PLA - Series</h3>
+      </div>
+      <div class="product-card">
+        <img src="images/PLA (0).jpg" alt="PLA Filament 1" />
+        <h3>PLA - Orange</h3>
+      </div>
+      
+      <div class="product-card">
+        <img src="images/PLA (3).jpg" alt="PLA Filament 3" />
+        <h3>PLA - White</h3>
+      </div>
+      <div class="product-card">
+        <img src="images/PLA (4).jpg" alt="PLA Filament 4" />
+        <h3>PLA - Black</h3>
+      </div>
+      <div class="product-card">
+        <img src="images/PLA (5).jpg" alt="PLA Filament 5" />
+        <h3>PLA - Olive Green</h3>
+      </div>
+      <div class="product-card">
+        <img src="images/PLA (7).jpg" alt="PLA Filament 7" />
+        <h3>PLA - Red</h3>
+      </div>
+      <div class="product-card">
+        <img src="images/PLA (2).jpg" alt="PLA Filament 8" />
+        <h3>PLA - Grey</h3>
+      </div>
+      
+      <!-- Repeat for all other cards -->
+    </div>
+  </div>
+</section>
+
+
+      <section id="pla-matte" class="product-category">
+    <h2>PLA Matte</h2>
+    <div class="product-row">
+      <div class="product-card"><img src="images/PLA_MATTE (10).jpg" alt="PLA Matte 10">
+      <h3>PLA Matte - Series</h3> 
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (1).jpg" alt="PLA Matte 1">
+      <h3>PLA Matte - Bright Yellow</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (2).jpg" alt="PLA Matte 2">
+      <h3>PLA Matte - White</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (3).jpg" alt="PLA Matte 3">
+      <h3>PLA Matte - Powder Blue</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (4).jpg" alt="PLA Matte 4">
+      <h3>PLA Matte - Pink</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (5).jpg" alt="PLA Matte 5">
+      <h3>PLA Matte - Black</h3> 
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (6).jpg" alt="PLA Matte 6">
+      <h3>PLA Matte - Red</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (7).jpg" alt="PLA Matte 7">
+      <h3>PLA Matte - Purple</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (8).jpg" alt="PLA Matte 8">
+      <h3>PLA Matte - Orange</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (9).jpg" alt="PLA Matte 9">
+      <h3>PLA Matte - Blue</h3>
+      </div>
+      
+      <div class="product-card"><img src="images/PLA_MATTE (11).jpg" alt="PLA Matte 11">
+      <h3>PLA Matte - Grey</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (12).jpg" alt="PLA Matte 12">
+      <h3>PLA Matte - Light Blue</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (13).jpg" alt="PLA Matte 13">
+      <h3>PLA Matte - Green</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (14).jpg" alt="PLA Matte 14">
+      <h3>PLA Matte - Clay</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA_MATTE (15).jpg" alt="PLA Matte 15">
+      <h3>PLA Matte - Olive Green</h3> 
+      </div>
+    </div>
+  </section>
+
+  <!-- PLA+ Category -->
+  <section id="pla-plus" class="product-category">
+    <h2>PLA+</h2>
+    <div class="product-row">
+      <div class="product-card"><img src="images/PLA+ (16).jpg" alt="PLA+ 16">
+      <h3>PLA+ - Series</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (1).jpg" alt="PLA+ 1">
+      <h3>PLA+ - Sunny Orange</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (2).jpg" alt="PLA+ 2">
+      <h3>PLA+ - Silver</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (3).jpg" alt="PLA+ 3">
+      <h3>PLA+ - Sakura Pink</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (4).jpg" alt="PLA+ 4">
+      <h3>PLA+ - Yellow</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (5).jpg" alt="PLA+ 5">
+      <h3>PLA+ - Black</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (6).jpg" alt="PLA+ 6">
+      <h3>PLA+ - White</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (7).jpg" alt="PLA+ 7">
+      <h3>PLA+ - Red</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (8).jpg" alt="PLA+ 8">
+      <h3>PLA+ - Beige</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (9).jpg" alt="PLA+ 9">
+      <h3>PLA+ - Grey</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (10).jpg" alt="PLA+ 10">
+      <h3>PLA+ - Cyan</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (11).jpg" alt="PLA+ 11">
+      <h3>PLA+ - Mint Green</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (12).jpg" alt="PLA+ 12">
+      <h3>PLA+ - Coffee Brown</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (13).jpg" alt="PLA+ 13">
+      <h3>PLA+ - Green</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (14).jpg" alt="PLA+ 14">
+      <h3>PLA+ - Lavender Purple</h3>
+      </div>
+      <div class="product-card"><img src="images/PLA+ (15).jpg" alt="PLA+ 15">
+      <h3>PLA+ - Bone White</h3>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Silk PLA+ Category -->
+  <section id="silk-pla-plus" class="product-category">
+    <h2>Silk PLA+</h2>
+    <div class="product-row">
+      <div class="product-card"><img src="images/SILK_PLA+ (3).jpg" alt="Silk PLA+ 3">
+      <h3>Silk PLA+ - Series</h3>
+    </div>
+      <div class="product-card"><img src="images/SILK_PLA+ (1).jpg" alt="Silk PLA+ 1">
+      <h3>Silk PLA+ - Blue</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (2).jpg" alt="Silk PLA+ 2">
+      <h3>Silk PLA+ - Silver</h3>
+    </div>
+    
+    <div class="product-card"><img src="images/SILK_PLA+ (4).jpg" alt="Silk PLA+ 4">
+      <h3>Silk PLA+ - Orange</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (5).jpg" alt="Silk PLA+ 5">
+      <h3>Silk PLA+ - Yellow</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (6).jpg" alt="Silk PLA+ 6">
+      <h3>Silk PLA+ - Pink</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (7).jpg" alt="Silk PLA+ 7">
+      <h3>Silk PLA+ - Black</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (8).jpg" alt="Silk PLA+ 8">
+      <h3>Silk PLA+ - Brass</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (9).jpg" alt="Silk PLA+ 9">
+      <h3>Silk PLA+ - Grey</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (10).jpg" alt="Silk PLA+ 10">
+      <h3>Silk PLA+ - White</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (11).jpg" alt="Silk PLA+ 11">
+      <h3>Silk PLA+ - Purple</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (12).jpg" alt="Silk PLA+ 12">
+      <h3>Silk PLA+ - Red Copper</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (13).jpg" alt="Silk PLA+ 13">
+      <h3>Silk PLA+ - Red</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (14).jpg" alt="Silk PLA+ 14">
+      <h3>Silk PLA+ - Light Gold</h3>
+    </div>
+    <div class="product-card"><img src="images/SILK_PLA+ (15).jpg" alt="Silk PLA+ 15">
+      <h3>Silk PLA+ - Green</h3>
+    </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- Silk PLA+ Dual Color -->
+<section id="silk-pla-dual" class="product-category">
+  <h2>Silk PLA+ Dual Color</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/Silk_Dual (2).jpg" alt="Dual Color 2">
+      <h3>Silk PLA+ - Series</h3>
+    </div>
+    <div class="product-card"><img src="images/Silk_Dual (1).jpg" alt="Dual Color 1">
+      <h3>Silk PLA+ - Red Blue</h3>
+    </div>
+    
+    <div class="product-card"><img src="images/Silk_Dual (3).jpg" alt="Dual Color 3">
+      <h3>Silk PLA+ - Pink Gold</h3>
+    </div>
+    <div class="product-card"><img src="images/Silk_Dual (4).jpg" alt="Dual Color 4">
+      <h3>Silk PLA+ - Black Gold</h3>
+    </div>
+    <div class="product-card"><img src="images/Silk_Dual (5).jpg" alt="Dual Color 5">
+      <h3>Silk PLA+ - Black Green</h3>
+    </div>
+    <div class="product-card"><img src="images/Silk_Dual (6).jpg" alt="Dual Color 6">
+      <h3>Silk PLA+ - Red Gold</h3>
+    </div>
+    <div class="product-card"><img src="images/Silk_Dual (7).jpg" alt="Dual Color 7">
+      <h3>Silk PLA+ - Black Blue</h3>
+    </div>
+    <div class="product-card"><img src="images/Silk_Dual (8).jpg" alt="Dual Color 8">
+      <h3>Silk PLA+ - Black Purple</h3>
+    </div>
+    
+
+
+  </div>
+</section>
+
+<!-- Silk PLA+ Rainbow -->
+<section id="silk-pla-rainbow" class="product-category">
+  <h2>Silk PLA+ Rainbow Series</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/Rainbow (4).jpg" alt="Rainbow PLA+ 4">
+      <h3>Silk PLA+ - Series</h3>
+    </div>
+    <div class="product-card"><img src="images/Rainbow (2).jpg" alt="Rainbow PLA+ 2">
+      <h3>Silk PLA+ - Rainbow 01</h3>
+    </div>
+    <div class="product-card"><img src="images/Rainbow (3).jpg" alt="Rainbow PLA+ 3">
+      <h3>Silk PLA+ - Rainbow 04</h3>
+    </div>
+    <div class="product-card"><img src="images/Rainbow (1).jpg" alt="Rainbow PLA+ 1">
+      <h3>Silk PLA+ - Rainbow 05</h3>
+    </div>
+    
+    
+    
+
+  </div>
+</section>
+
+<!-- Silk PLA+ Tri Color -->
+<section id="silk-pla-tricolor" class="product-category">
+  <h2>Silk PLA+ Tri Color</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/TriColor (1).png" alt="Tri Color 2">
+      <h3>Silk PLA+ - Series</h3>
+    </div>
+    <div class="product-card"><img src="images/TriColor (1).jpg" alt="Tri Color 1">
+      <h3>Silk PLA+ - Red Yellow Green</h3>
+    </div>
+    
+    <div class="product-card"><img src="images/TriColor (2).jpg" alt="Tri Color 3">
+      <h3>Silk PLA+ - Blue Green Purple</h3>
+    </div>
+  </div>
+</section>
+
+<!-- ABS -->
+<section id="abs" class="product-category">
+  <h2>ABS</h2>
+  <div class="product-row">
+
+    <div class="product-card"><img src="images/ABS (1).png" alt="ABS 2">
+      <h3>ABS - Series</h3>
+    </div>
+    <div class="product-card"><img src="images/ABS (1).jpg" alt="ABS 1">
+      <h3>ABS - Red</h3>
+    </div>
+    
+    <div class="product-card"><img src="images/ABS (2).jpg" alt="ABS 3">
+      <h3>ABS - Black</h3>
+    </div>
+    <div class="product-card"><img src="images/ABS (2).png" alt="ABS 4">
+      <h3>ABS - White</h3>
+    </div>
+    <div class="product-card"><img src="images/ABS (3).jpg" alt="ABS 5">
+      <h3>ABS - Grey</h3>
+    </div>
+    <div class="product-card"><img src="images/ABS (4).jpg" alt="ABS 6">
+      <h3>ABS - Silver</h3>
+    </div>
+    <div class="product-card"><img src="images/ABS (5).jpg" alt="ABS 7">
+      <h3>ABS - Blue</h3>
+    </div>
+
+
+
+  </div>
+</section>
+
+<!-- HS Marble -->
+<section id="hs-pla-marble" class="product-category">
+  <h2>HS Marble</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/hsMarble (2).jpg" alt="HS Marble 2">
+      <h3>HS Marble - Series</h3>
+    </div>
+    <div class="product-card"><img src="images/hsMarble (1).jpg" alt="HS Marble 1">
+      <h3>HS Marble - Shadow Storm</h3>
+    </div>
+    
+    <div class="product-card"><img src="images/hsMarble (3).jpg" alt="HS Marble 3">
+      <h3>HS Marble - Brick Red</h3>
+    </div>
+    <div class="product-card"><img src="images/hsMarble (4).jpg" alt="HS Marble 4">
+      <h3>HS Marble - Ashen Concrete</h3>
+    </div>
+    <div class="product-card"><img src="images/hsMarble (5).jpg" alt="HS Marble 5">
+      <h3>HS Marble - Oreo</h3>
+    </div>
+    <div class="product-card"><img src="images/hsMarble (6).jpg" alt="HS Marble 6">
+      <h3>HS Marble - Forest Green</h3>
+    </div>
+    <div class="product-card"><img src="images/hsMarble (7).jpg" alt="HS Marble 7">
+      <h3>HS Marble - Chestnut Brown</h3>
+    </div>
+
+
+
+  </div>
+</section>
+
+<section id="petg" class="product-category">
+  <h2>PETG</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/PETG (1).png" alt="PETG 2">
+      <h3>PETG - Series</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (1).jpg" alt="PETG 1">
+      <h3>PETG - Rainboe 01</h3>
+    </div>
+    
+    <div class="product-card"><img src="images/PETG (2).jpg" alt="PETG 3">
+      <h3>PETG - Klein Blue</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (3).jpg" alt="PETG 5">
+      <h3>PETG - White</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (3).png" alt="PETG 6">
+      <h3>PETG - Green</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (4).jpg" alt="PETG 7">
+      <h3>PETG - Black</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (5).jpg" alt="PETG 8">
+      <h3>PETG - Red</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (6).jpg" alt="PETG 9">
+      <h3>PETG - Grey</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (7).jpg" alt="PETG 10">
+      <h3>PETG - Lavender Purple</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (8).jpg" alt="PETG 11">
+      <h3>PETG - Coffee Brown</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (9).jpg" alt="PETG 12">
+      <h3>PETG - Beige</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (10).jpg" alt="PETG 13">
+      <h3>PETG - Olive Green</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (11).jpg" alt="PETG 14">
+      <h3>PETG - Cyan</h3>
+    </div>
+    <div class="product-card"><img src="images/PETG (12).jpg" alt="PETG 15">
+      <h3>PETG - Yellow</h3>
+    </div>
+  </div>
+</section>
+
+<section id="tpu" class="product-category">
+  <h2>TPU</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/TPU (1).jpg" alt="TPU 1">
+      <h3>TPU - White</h3>
+    </div>
+    <div class="product-card"><img src="images/TPU (2).jpg" alt="TPU 2">
+      <h3>TPU - Black</h3>
+    </div>
+    <div class="product-card"><img src="images/TPU (3).jpg" alt="TPU 3">
+      <h3>TPU - Red</h3>
+    </div>
+    <div class="product-card"><img src="images/TPU (4).jpg" alt="TPU 4">
+      <h3>TPU - Orange</h3>
+    </div>
+  </div>
+</section>
+
+<section id="wood" class="product-category">
+  <h2>Wood</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/Wood (2).jpg" alt="Wood 2">
+      <h3>Wood - Series</h3>
+    </div>
+    <div class="product-card"><img src="images/Wood (1).jpg" alt="Wood 1">
+      <h3>Wood - Cherry</h3>
+    </div>
+    
+    <div class="product-card"><img src="images/Wood (4).jpg" alt="Wood 4">
+      <h3>Wood - Maple</h3>
+    </div>
+    <div class="product-card"><img src="images/Wood (5).jpg" alt="Wood 5">
+      <h3>Wood - Walnut</h3>
+    </div>
+    <div class="product-card"><img src="images/Wood (6).jpg" alt="Wood 6">
+      <h3>Wood</h3>
+    </div>
+  
+
+  </div>
+</section>
+
+<section id="clear-resins" class="product-category">
+  <h2>Clear Resins</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/Clear_Resin.png" alt="Clear Resin 1">
+      <h3>Clear Resin</h3>
+    </div>
+  </div>
+</section>
+
+<section id="standard-resins" class="product-category">
+  <h2>STANDARD Resins</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/STD_Resin (4).jpg" alt="Standard Resin 7">
+      <h3>STANDARD Resins - Series</h3>
+    </div>
+    <div class="product-card"><img src="images/STD_Resin (1).jpg" alt="Standard Resin 1">
+      <h3>STANDARD Resins - Orange</h3>
+    </div>
+    <div class="product-card"><img src="images/STD_Resin (1).png" alt="Standard Resin 2">
+      <h3>STANDARD Resins - Clear</h3>
+    </div>
+    <div class="product-card"><img src="images/STD_Resin (2).jpg" alt="Standard Resin 3">
+      <h3>STANDARD Resins - Blue</h3>
+    </div>
+    <div class="product-card"><img src="images/STD_Resin (2).png" alt="Standard Resin 4">
+      <h3>STANDARD Resins - Red</h3>
+    </div>
+    <div class="product-card"><img src="images/STD_Resin (3).jpg" alt="Standard Resin 5">
+      <h3>STANDARD Resins - Green</h3>
+    </div>
+    <div class="product-card"><img src="images/STD_Resin (3).png" alt="Standard Resin 6">
+      <h3>STANDARD Resins - White</h3>
+    </div>
+    
+    <div class="product-card"><img src="images/STD_Resin (4).png" alt="Standard Resin 8">
+      <h3>STANDARD Resins - Clear Green</h3>
+    </div>
+    <div class="product-card"><img src="images/STD_Resin (5).png" alt="Standard Resin 9">
+      <h3>STANDARD Resins - Beige</h3>
+    </div>
+    <div class="product-card"><img src="images/STD_Resin (6).png" alt="Standard Resin 10">
+      <h3>STANDARD Resins - Dark Grey</h3>
+    </div>
+    <div class="product-card"><img src="images/STD_Resin (7).png" alt="Standard Resin 11">
+      <h3>STANDARD Resins - Black</h3>
+    </div>
+  </div>
+</section>
+
+<section id="standard-plus" class="product-category">
+  <h2>STANDARD Plus Resin</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/STD+ (2).jpg" alt="Standard Plus Resin 3">
+      <h3>STANDARD+ Resin - Series</h3>
+    </div>
+    <div class="product-card"><img src="images/STD+ (1).jpg" alt="Standard Plus Resin 1">
+      <h3>STANDARD+ Resin - Clear Blue</h3>
+    </div>
+    <div class="product-card"><img src="images/STD+ (1).png" alt="Standard Plus Resin 2">
+      <h3>STANDARD+ Resin - Black</h3>
+    </div>
+    
+    <div class="product-card"><img src="images/STD+ (2).png" alt="Standard Plus Resin 4">
+      <h3>STANDARD+ Resin - Clear</h3>
+    </div>
+    <div class="product-card"><img src="images/STD+ (3).jpg" alt="Standard Plus Resin 5">
+      <h3>STANDARD+ Resin - Clear Green</h3>
+    </div>
+    <div class="product-card"><img src="images/STD+ (3).png" alt="Standard Plus Resin 6">
+      <h3>STANDARD+ Resin - White</h3>
+    </div>
+    <div class="product-card"><img src="images/STD+ (4).png" alt="Standard Plus Resin 7">
+      <h3>STANDARD+ Resin - Dark Grey</h3>
+    </div>
+
+
+  </div>
+</section>
+
+<section id="accessories" class="product-category">
+  <h2>Accessories</h2>
+  <div class="product-row">
+    <div class="product-card"><img src="images/S2.jpg" alt="Accessory 1">
+      <h3>Accessories - S2 Dryer</h3>
+    </div>
+    <div class="product-card"><img src="images/S4.png" alt="Accessory 2">
+      <h3>Accessories - S4 Dryer</h3>
+    </div>
+    <div class="product-card"><img src="images/E2.png" alt="Accessory 3">
+      <h3>Accessories - E2 Dryer</h3>
+    </div>
+    <div class="product-card"><img src="images/Connector.png" alt="Accessory 4">
+      <h3>Accessories - Fillament Connector</h3>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+      </div>
+        </div>
+              
+
+
+
+
+
+
+
+      </section>
+    </div>
+  </div>
+
+  </section>
+
+  <section id="about" class="section page-section">
+    <h2>About EN Labz</h2>
+  
+     <div class="mv-section">
+    <div class="mv-block">
+      <h3>Our Mission</h3>
+      <p>Our company's mission is to focus on providing high-quality materials, tools, and services, enabling customers to achieve their goals in 3D printing innovation, to empower customers to create, and realize their 3D printing visions. This involve providing a wide range of materials, tools, and resources to facilitate design, prototyping, and production, enabling them to bring their creative visions to life with precision and ease</p>
+      <p>Our company's commitment to innovation, constantly seeking new technologies and materials to improve the 3D printing process and expand its possibilities. By making 3D printing accessible and user-friendly for a wide range of users, from hobbyists to professionals. With exceptional customer experiences, fostering a community of creators and innovators </p>
+    </div>
+
+    <div class="mv-block">
+      <h3>Our Vision</h3>
+      <p>The vision is to become a leader in the 3D printing industry supplies, to be the most trusted and sought-after partner for 3D printing solutions, revolutionizing manufacturing and empowering a future,  pushing the boundaries of 3D printing technology and making it a mainstream solution for diverse applications, driving innovation and shaping the future of ideas and manufacturing through accessible and advanced technologies. </p>
+    </div>
+  </div>
+  </section>
+
+  <section id="contact" class="section page-section">
+    <h2>Contact Us</h2>
+    <p>For wholesale inquiry</p>
+    <p>Email: earthsnourriture@gmail.com</p>
+    <p>Phone: +63 917 185 5900</p>
+    <p>Location: Parañaque, Philippines</p>
+
+    <div class="social-links">
+    <h3>Follow Us</h3>
+    <a href=" https://facebook.com/EarthsNourriture" target="_blank" class="social-btn facebook">
+      <img src="images/facebook.png" alt="Facebook Icon" class="social-icon">
+      Facebook
+    </a>
+    <a href="https://www.instagram.com/earthsnourriture?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-btn instagram">
+      <img src="images/Instagram_icon.png" alt="Instagram Icon" class="social-icon">
+      Instagram
+    </a>
+  </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EN Labz. All rights reserved.</p>
+    <div class="social-footer">
+    <a href="https://facebook.com/EarthsNourriture" target="_blank" class="social-icon-link">
+      <img src="images/facebook.png" alt="Facebook" class="social-icon" />
+    </a>
+    <a href="https://www.instagram.com/earthsnourriture?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-icon-link">
+      <img src="images/Instagram_icon.png" alt="Instagram" class="social-icon" />
+    </a>
+  </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
